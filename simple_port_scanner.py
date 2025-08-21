@@ -1,8 +1,7 @@
-# simple_port_scanner.py
 import socket
 
 # Target IP address (example: google.com)
-target = ""   # "localhost" (your own computer)
+target = ""   
 
 # Range of ports to scan
 ports = [21, 22, 80, 443, 3306]
@@ -11,7 +10,7 @@ print(f"Scanning {target}...")
 
 for port in ports:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.settimeout(1)  # 1 second timeout
+    sock.settimeout(1)  
     result = sock.connect_ex((target, port))
     
     if result == 0:
@@ -20,3 +19,4 @@ for port in ports:
         print(f"Port {port} is CLOSED")
     
     sock.close()
+
