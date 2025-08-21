@@ -15,3 +15,9 @@ Email → 25, 110, 143
 Files → 21, 69, 445
 Databases → 3306, 1433, 27017
 Networking basics → 53 (DNS), 67/68 (DHCP), 161 (SNMP)
+
+// WHAT CAN BE PUT IN THE TERMINAL FOR THIS SCANNER
+IP Address → direct, fast (e.g., 8.8.8.8)
+Hostname/URL → user-friendly (e.g., scanme.nmap.org)
+Subdomain → may point to different servers (mail.google.com, ftp.example.com)
+Network ranges → scan multiple IPs at once (advanced)
