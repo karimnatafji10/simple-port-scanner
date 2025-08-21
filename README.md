@@ -15,5 +15,14 @@ Port 22 is OPEN
 Port 80 is OPEN
 Port 443 is CLOSED
 ## Disclaimer
+
 ⚠️ For educational purposes only.  
 Do not scan systems without permission.
+
+PORTS#
+Web → 80 & 443
+Remote login → 22 (SSH), 3389 (RDP)
+Email → 25, 110, 143
+Files → 21, 69, 445
+Databases → 3306, 1433, 27017
+Networking basics → 53 (DNS), 67/68 (DHCP), 161 (SNMP)
