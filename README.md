@@ -21,3 +21,8 @@ IP Address → direct, fast (e.g., 8.8.8.8)
 Hostname/URL → user-friendly (e.g., scanme.nmap.org)
 Subdomain → may point to different servers (mail.google.com, ftp.example.com)
 Network ranges → scan multiple IPs at once (advanced)
+
+// Examples runs 
+
+- python3 range_port_scanner.py **scanme.nmap.org** //this will scan 1-1000 ports
+- python3 range_port_scanner.py scanme.nmap.org --start 1 --end 1024 //this will scan 1-1024 ports
