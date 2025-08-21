@@ -26,3 +26,5 @@ Network ranges → scan multiple IPs at once (advanced)
 
 - python3 range_port_scanner.py **scanme.nmap.org** //this will scan 1-1000 ports
 - python3 range_port_scanner.py scanme.nmap.org --start 1 --end 1024 //this will scan 1-1024 ports
+
+//Every device has 65k possible doors.
